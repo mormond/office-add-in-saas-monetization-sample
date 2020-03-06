@@ -18,7 +18,7 @@
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
   <DisplayName DefaultValue="SaaS Sample Outlook Addin" />
   <Description DefaultValue="SaaS Sample Outlook Addin" />
-  <IconUrl DefaultValue="https://OutlookAddinSiteUrl/Images/Icon64.png" />
+  <IconUrl DefaultValue="https://meocontosomonetizationoutlookaddin.azurewebsites.net/Images/Icon64.png" />
 
   <!--BeginTaskpaneMode integration. Office 2013 and any client that doesn't understand commands will use this section.
     This section will also be used if there are no VersionOverrides -->
@@ -33,7 +33,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://OutlookAddinSiteUrl/Home/AddInIndex" />
+        <SourceLocation DefaultValue="https://meocontosomonetizationoutlookaddin.azurewebsites.net/Home/AddInIndex" />
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -97,13 +97,13 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://OutlookAddinSiteUrl/Images/Icon16.png" />
-        <bt:Image id="icon32" DefaultValue="https://OutlookAddinSiteUrl/Images/Icon32.png" />
-        <bt:Image id="icon80" DefaultValue="https://OutlookAddinSiteUrl/Images/Icon80.png" />
+        <bt:Image id="icon16" DefaultValue="https://meocontosomonetizationoutlookaddin.azurewebsites.net/Images/Icon16.png" />
+        <bt:Image id="icon32" DefaultValue="https://meocontosomonetizationoutlookaddin.azurewebsites.net/Images/Icon32.png" />
+        <bt:Image id="icon80" DefaultValue="https://meocontosomonetizationoutlookaddin.azurewebsites.net/Images/Icon80.png" />
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://OutlookAddinSiteUrl/Home/AddInIndex" />
-        <bt:Url id="residImageHomeUrl" DefaultValue="https://OutlookAddinSiteUrl/Home/AddInIndex">
+        <bt:Url id="Taskpane.Url" DefaultValue="https://meocontosomonetizationoutlookaddin.azurewebsites.net/Home/AddInIndex" />
+        <bt:Url id="residImageHomeUrl" DefaultValue="https://meocontosomonetizationoutlookaddin.azurewebsites.net/Home/AddInIndex">
         </bt:Url>
       </bt:Urls>
       <bt:ShortStrings>
