@@ -27,7 +27,7 @@ jobs:
     - name: Setup .NET Core SDK
       uses: actions/setup-dotnet@v1.4.0
       with:
-        dotnet-version: 2.1.80
+        dotnet-version: 3.1.100
         
     - name: Build with dotnet
       run: dotnet build MonetizationCodeSample/OutlookWebAddInWeb/OutlookWebAddInWeb.csproj --configuration Release
